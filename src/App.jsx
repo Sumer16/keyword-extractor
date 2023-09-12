@@ -1,12 +1,16 @@
-import React from 'react'
-
+// Chakra UI
 import { Container, Box } from '@chakra-ui/react'
+
+// Components
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <Box bg='blue.600' color='white' height='100vh' paddingTop='130px'>
+    <Box bg='teal.600' color='white' height='100vh' paddingTop='130px'>
       <Container maxWidth='3xl' centerContent>
-        <h1>Keyword Extractor</h1>
+        <Header />
+        <Footer />
       </Container>
     </Box>
   )
